@@ -3,15 +3,15 @@
 
 }
 
-app-menu-logo {
+.menu__logo {
   flex: 1;
 }
 
-
-app-menu-nav {
+.menu__nav{
   flex: 1;
 }
 
-app-login-button {
+.login__button{
   flex: 1;
 }
+

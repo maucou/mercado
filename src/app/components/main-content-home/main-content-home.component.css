@@ -1,5 +1,22 @@
+.container {
+  margin: 0 30px 0 50px;
+}
+
 .container__card-product {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define as colunas */
-  gap: 20px; /* Espaçamento entre os cards */
+  gap: 10px; /* Espaçamento entre os cards */
+
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*Define as colunas*/
+  /*gap: 10px;*/ /*Espaçamento entre os cards*/
+
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
 }
+
+.image-carousel {
+  margin-bottom: 2rem;
+}
+

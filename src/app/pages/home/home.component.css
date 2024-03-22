@@ -1,0 +1,13 @@
+.container__home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container__header {
+
+}
+
+.container__main-content-home {
+  margin: 2rem 0 2rem 0;
+}
