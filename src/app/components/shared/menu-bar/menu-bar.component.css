@@ -1,0 +1,17 @@
+.menu-bar__container {
+  display: flex;
+
+}
+
+app-menu-logo {
+  flex: 1;
+}
+
+
+app-menu-nav {
+  flex: 1;
+}
+
+app-login-button {
+  flex: 1;
+}

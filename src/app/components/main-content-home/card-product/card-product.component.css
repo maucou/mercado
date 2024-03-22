@@ -1,0 +1,11 @@
+.container__card-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.3px solid #ebedf0;
+  width: 235px;
+  height: 300px;
+  margin: 2px 0 2px 2px;
+  padding: 10px 0 25px 0;
+}

@@ -1,0 +1,10 @@
+<div class="carousel-container">
+  <div class="carousel-slide" [style.transform]="'translateX(' + (-100 * counter) + '%)'">
+    <img src="../../../assets/img/bird.jpg" alt="Imagem 1">
+    <img src="../../../assets/img/geese.jpg" alt="Imagem 2">
+    <img src="../../../assets/img/snowman.jpg" alt="Imagem 3">
+  </div>
+  <button class="prev-button" (click)="prevImage()">&#10094;</button>
+  <button class="next-button" (click)="nextImage()">&#10095;</button>
+</div>
+
